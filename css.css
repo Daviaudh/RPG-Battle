@@ -1,0 +1,136 @@
+p1{
+   font-size: 25px;
+   text-decoration: underline;
+  text-shadow: 1px 1px 2px black;
+}
+
+ph{
+  font-size: 20px;
+  color : red;
+  text-shadow: 1px 1px 2px black;
+}
+
+pm{
+  font-size: 20px;
+  color : DodgerBlue;
+  text-shadow: 1px 1px 2px black;
+}
+pl{
+  font-size: 20px;
+  color : white;
+  text-shadow: 1px 1px 2px black;
+}
+
+pa{
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+pde{
+  font-size :  20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+img{
+    width : 50%;
+    height : 100%;
+}
+
+Stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width : 100%;
+  height : 25%;
+}
+
+Middle {
+  display: flex;
+ padding: 100px 0px;
+  width : 100%;
+  height : 50%;
+}
+
+.action{
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+ flex-direction: column-reverse;
+  justify-content: space-around;
+  background-color: rgba(30, 30, 50, 0.8);
+  height : 60%;
+  width : 25%;
+}
+
+.describe{
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(30, 30, 50, 0.8);
+  height: 60%;
+  width: 30%;
+}
+
+space{
+  display: flex;
+  justify-content: space-between;
+  height : 60%;
+  width : 30%;
+}
+
+.Level{
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(30, 30, 50, 0.8);
+  height: 50px;
+  width: 50%;
+}
+
+.Mana{
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(30, 30, 50, 0.8);
+  height: 50px;
+  width: 50%;
+}
+
+.health{
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(30, 30, 50, 0.8);
+  height: 50;
+  width: 50%;
+}
+
+.name {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(30, 30, 50, 0.8);
+  height: 50;
+  width: 50%;
+  }
+
+.titre {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(30, 30, 50, 0.8);
+  height:50px;
+  width: 15%;
+  }
+
+body{
+  background-image:url(Fond.png);
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
