@@ -114,6 +114,13 @@ img{
   height:50px;
   width: 15%;
   }
+ 
+  .infobulle{
+  display: flex;
+ justify-content:space-around;
+  padding-top:8px;
+  }
+
   #infobulleMonstre1{
      border: 1px solid white;
   display: flex;
@@ -133,6 +140,7 @@ img{
   background-color: rgba(30, 30, 50, 0.8);
   width: fit-content;
   padding: 5px;
+  visibility: hidden;
   }
     #infobulleMonstre3{
      border: 1px solid white;
