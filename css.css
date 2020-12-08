@@ -145,19 +145,20 @@ img{
   }
     #infobulleMonstre3{
      border: 1px solid white;
-  display: flex;
- align-items: center;
- flex-direction: column;
-  justify-content: space-around;
-  background-color: rgba(30, 30, 50, 0.8);
-  width: fit-content;
-  padding: 5px;
-   visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(30, 30, 50, 0.8);
+    width: fit-content;
+    padding: 5px;
+     visibility: hidden;
   }
-#attaque:hover{
-  cursor: pointer;
-  color:blue; 
+  #attaque:hover{
+    cursor: pointer;
+    color:blue; 
 }
+
 body{
   background-repeat:no-repeat;
   background-size: 100% 100%;

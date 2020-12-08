@@ -28,3 +28,4 @@ attaque.addEventListener("click",attaqueClick);
 function attaqueClick(){
 console.log("test")
 }
+
