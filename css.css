@@ -154,7 +154,10 @@ img{
   padding: 5px;
    visibility: hidden;
   }
-
+#attaque:hover{
+  cursor: pointer;
+  color:blue; 
+}
 body{
   background-repeat:no-repeat;
   background-size: 100% 100%;
