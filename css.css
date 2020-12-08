@@ -130,6 +130,7 @@ img{
   background-color: rgba(30, 30, 50, 0.8);
   width: fit-content;
   padding: 5px;
+   visibility: hidden;
   }
     #infobulleMonstre2{
      border: 1px solid white;
@@ -151,6 +152,7 @@ img{
   background-color: rgba(30, 30, 50, 0.8);
   width: fit-content;
   padding: 5px;
+   visibility: hidden;
   }
 
 body{
