@@ -39,14 +39,40 @@ img{
     height : 100px;
 }
 
-.action{
+.boite{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.action{ 
+  border: 1px solid white;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-direction: column; 
+  background-color: rgba(30, 30, 50, 0.8);
+  height : 100px;
+  width : 114px;
+  visibility: hidden;
+}
+
+.orga1{
+display: flex;
+justify-content: 
+justify-content: space-around;
+}
+
+.cible{
+
   border: 1px solid white;
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: rgba(30, 30, 50, 0.8);
-  height : 100px;
-  width : 400px;
+  height: 50;
+  width: 50%;
+
 }
 
 .describe{
@@ -132,6 +158,7 @@ img{
   padding: 5px;
    visibility: hidden;
   }
+
     #infobulleMonstre2{
      border: 1px solid white;
   display: flex;
@@ -143,6 +170,7 @@ img{
   padding: 5px;
   visibility: hidden;
   }
+
     #infobulleMonstre3{
      border: 1px solid white;
     display: flex;
@@ -154,10 +182,85 @@ img{
     padding: 5px;
      visibility: hidden;
   }
-  #attaque:hover{
+
+  #attaque1:hover{
     cursor: pointer;
     color:blue; 
 }
+
+#defense1:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#special1:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+  #attaque2:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#defense2:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#special2:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+  #attaque3:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#defense3:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#special3:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+  #attaque4:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#defense4:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+#special4:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+
+
+
+
+#cible1:hover{
+    cursor: pointer;
+    color:blue; 
+}
+#cible2:hover{
+    cursor: pointer;
+    color:blue; 
+}
+#cible3:hover{
+    cursor: pointer;
+    color:blue; 
+}
+
+
 
 body{
   background-repeat:no-repeat;

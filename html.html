@@ -8,47 +8,68 @@
 <body>
   <div id="background" style="background-image: url('background.png');">
 
-  <div class="titre">
-    <p1>Follow Orders</p1>
-  </div>
+<div class="orga1">
+  
+
 
   <div class="name" >
-    <p1>paladin</p1> <p1>Soigneur</p1> <p1>guerrier</p1> 
+    <p1 class = "Perso" id = "Paladin">paladin</p1> <p1 class = "Perso" id = "Soigneur">Soigneur</p1> <p1 class = "Perso" id = "Guerrier1">guerrier</p1> <p1 class = "Perso" id = "Guerrier2" >guerrier</p1> 
   </div>
 
+     <div class="cible" >
+      <pa id="cible1">Cible1</pa> 
+      <pa id="cible2">Cible2</pa>  
+      <pa id="cible3">Cible3</pa>
+    </div>
+
+</div>
+   
   <div class="health" >
-    <ph>HP : 150</ph>    <ph>HP : 75</ph>  <ph>HP : 100</ph>  
+    <ph>HP : <ph id="Hp1"> 150 </ph> </ph>    <ph>HP : <ph id="Hp2"> 50 </ph></ph>  <ph>HP : <ph id="Hp3"> 70 </ph></ph>  <ph>HP :<ph id="Hp4"> 70 </ph></ph>  
    </div>
 
-    <div class="mana" >
-      <pm>Mana : 52 </pm> <pm>Mana : 75 </pm> <pm>Mana : 57 </pm> 
+    <div class="mana">
+      <pm>Mana : <pm id="Mana1">52</pm> </pm> <pm>Mana : <pm id="Mana2">52</pm> </pm> <pm>Mana : <pm id="Mana3">52</pm> </pm> <pm>Mana :<pm id="Mana4">52</pm> </pm> 
     </div>
 
-    <div class="level" >
-      <pl> lvl : 5 </pl> <pl> lvl : 5 </pl> <pl> lvl : 5 </pl> 
+    
+  <div class = "Boite">
+    <div class="action" id = "action1">
+      <pa id="attaque1">Attaque</pa> 
+      <pa id="defense1">Défense</pa>  
+      <pa id="special1">Spécial</pa>
     </div>
-
-    <div class="action" >
-      <pa id="attaque">Attaque</pa> 
-      <pa id="defense">Défense</pa>  
-      <pa id="special">Spécial</pa>
+    <div class="action" id = "action2">
+      <pa id="attaque2">Attaque</pa> 
+      <pa id="defense2">Défense</pa>  
+      <pa id="special2">Spécial</pa>
     </div>
+    <div class="action" id = "action3">
+      <pa id="attaque3">Attaque</pa> 
+      <pa id="defense3">Défense</pa>  
+      <pa id="special3">Spécial</pa>
+    </div>
+     <div class="action" id = "action4">
+      <pa id="attaque4">Attaque</pa> 
+      <pa id="defense4">Défense</pa>  
+      <pa id="special4">Spécial</pa>
+    </div>
+  </div>
 
     <section class="infobulle">
         <div id="infobulleMonstre1">
           <p1>Ombre</p1>
-          <ph>HP : 104</ph> 
+          <ph>HP :  <span id="HpM1"> 70  </span></ph> 
 
         </div>
          <div id="infobulleMonstre2">
           <p1>Ombre</p1>
-          <ph>HP : 104</ph> 
+          <ph>HP : <ph id="HpM2"> 70 </ph></ph> 
 
         </div>
          <div id="infobulleMonstre3">
           <p1>Ombre</p1>
-          <ph>HP : 104</ph> 
-
+          <ph>HP : <ph id="HpM3"> 70 </ph></ph> 
         </div>
     </section>
       
